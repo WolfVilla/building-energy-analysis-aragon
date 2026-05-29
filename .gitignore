@@ -1,0 +1,17 @@
+.Rproj.user
+
+.Rhistory
+.RData
+.Ruserdata
+
+.Rproj.user/
+
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+outputs/*.csv
+
+data/*.zip

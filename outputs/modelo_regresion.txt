@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = Emision_CO2 ~ `ConsumoKWh/m2/Anio` + Superficie_m2 + 
+    Anio_construccion, data = datos)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-606.62  -16.67   -4.60   10.55  250.25 
+
+Coefficients:
+                       Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           5.908e+02  5.016e+00  117.77   <2e-16 ***
+`ConsumoKWh/m2/Anio`  1.787e-03  5.194e-05   34.40   <2e-16 ***
+Superficie_m2         5.435e-04  1.535e-04    3.54    4e-04 ***
+Anio_construccion    -2.711e-01  2.537e-03 -106.87   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 27.16 on 155036 degrees of freedom
+Multiple R-squared:  0.07644,	Adjusted R-squared:  0.07642 
+F-statistic:  4277 on 3 and 155036 DF,  p-value: < 2.2e-16
+
